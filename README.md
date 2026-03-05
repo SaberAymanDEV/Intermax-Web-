@@ -1,20 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# إنترماكس للتوكيلات التجارية (Intermax Commercial Agencies)
 
-# Run and deploy your AI Studio app
+## 👨‍💻 عن المطور (About the Developer)
+تم تصميم وتطوير هذا النظام بالكامل بواسطة المهندس **صابر أيمن (Saber Ayman)**.
+- **المسمى الوظيفي:** مهندس برمجيات متكامل (Full Stack Web Developer)
+- **الخبرات:** بناء تطبيقات ويب متكاملة، تطوير واجهات المستخدم (Frontend)، وبرمجة الخوادم وقواعد البيانات (Backend).
 
-This contains everything you need to run your app locally.
+## 🚀 نظرة عامة على المشروع (Project Overview)
+موقع إلكتروني متكامل لشركة "إنترماكس للتوكيلات التجارية" يهدف إلى عرض خدمات الشركة وقطاعاتها المختلفة، مع توفير لوحة تحكم إدارية (Admin Panel) قوية لإدارة المحتوى والتواصل مع العملاء.
 
-View your app in AI Studio: https://ai.studio/apps/69241be1-0759-4c74-b2ee-1e0da9c609c8
+### ✨ المميزات الرئيسية (Key Features)
+- **لوحة تحكم ديناميكية (Admin Dashboard):** إدارة نصوص الموقع، الخدمات، والقطاعات بسهولة.
+- **إحصائيات حية (Real-time Stats):** تتبع عدد الزيارات، المستخدمين المسجلين، والمتواجدين حالياً.
+- **نظام محادثة مباشر (Live Chat):** تواصل فوري بين الإدارة والزوار باستخدام (WebSockets).
+- **إدارة رسائل الزوار (Contact Messages):** استقبال وحفظ رسائل "تواصل معنا" في لوحة التحكم.
+- **تصميم متجاوب (Responsive Design):** يدعم جميع الشاشات (موبايل، تابلت، ديسكتوب).
 
-## Run Locally
+## 🛠️ التقنيات المستخدمة (Tech Stack)
+- **الواجهة الأمامية (Frontend):** React.js, Tailwind CSS, Framer Motion, Vite.
+- **الخلفية (Backend):** Node.js, Express.js.
+- **قاعدة البيانات (Database):** SQLite (better-sqlite3).
+- **الاتصال المباشر (Real-time):** Socket.io.
+- **الحماية والتشفير (Security):** JWT (JSON Web Tokens), bcryptjs.
 
-**Prerequisites:**  Node.js
+## ⚙️ كيفية التشغيل محلياً (How to Run Locally)
+1. قم بتثبيت الحزم والمكتبات:
+   ```bash
+   npm install
+   ```
+2. قم بتشغيل خادم التطوير (Frontend & Backend):
+   ```bash
+   npm run dev
+   ```
+3. افتح المتصفح على الرابط: `http://localhost:3000`
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+*تم التطوير بكل شغف بواسطة صابر أيمن ❤️*
